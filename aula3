@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio em html</title>
+</head>
+<body>
+    <h1>audio em html</h1>
+
+    <p>clique no botão de repprodução para ouvir o audio:</p>
+
+    <audio controls loop>
+        <source
+            src="hino-palmeiras-estourado.mp3"
+            type="audio/mpeg"
+        />
+        seu navegador não suporta a reprodução de audio.
+    </audio>
+</body>
+</html>
