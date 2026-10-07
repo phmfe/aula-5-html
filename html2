@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulario do estudante</title>
+</head>
+<body>
+    <h1>cadastro do estudante</h1>
+
+    <form>
+
+         <p>
+            <label for="nome">nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: Alexandre Ferreira" required> 
+        </p>
+
+        <p>
+            <label for="nome">e-mail:</label>
+            <input type="e-mail" id="e-mail" name="e-mail" placeholder="Ex: alexandre@gmail.com" required />
+        </p>
+
+
+         <p>
+            <label for="senha">senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Ex: 12345678" required />
+        </p>
+
+        <button type="submit">enviar</button>
+
+        <button type="reset">limpar</button>
+
+
+
+
+
+    </form>
+</body>
+</html>
